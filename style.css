@@ -1,0 +1,464 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+/* NavBar Section */
+
+.navBar {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 250px;
+}
+
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+
+.navLeft > img {
+  width: 200px;
+}
+
+.searchBar {
+  border: 1px solid #cbd5dfa8;
+  border-radius: 5px;
+  display: flex;
+  margin-left: 20px;
+  height: 35px;
+  width: 250px;
+  padding: 0 5px;
+  cursor: text;
+}
+
+.searchBar,
+.searchBar > input {
+  background-color: #f5f6f7;
+}
+
+.searchBar > img {
+  width: 22px;
+  filter: invert(50%);
+}
+
+.searchBar > input {
+  border: none;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.searchBar > input:focus {
+  outline: none;
+}
+
+.navRight > a {
+  color: rgba(0, 0, 0, 0.777);
+  margin: 0 8px;
+}
+
+.navRight > a:hover {
+  color: black;
+}
+
+.navButton {
+  font-size: 15px;
+  border: none;
+  color: white;
+  background-color: black;
+  height: 35px;
+  padding: 0 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.navButton:hover {
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+/* Banner Section */
+.Banner_Container {
+  background-image: linear-gradient(
+      54deg,
+      rgba(255, 131, 122, 0.25),
+      rgba(255, 131, 122, 0) 28%
+    ),
+    linear-gradient(
+      241deg,
+      rgba(239, 152, 207, 0.25),
+      rgba(239, 152, 207, 0) 36%
+    );
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 250px;
+}
+
+.BannerLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.BannerLeft > .heading > p {
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.BannerLeft > .sub_heading {
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.777);
+}
+
+.BannerButton > button {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  font-weight: 600;
+  height: 40px;
+  font-size: 17px;
+  padding: 5px 30px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.BannerButton > button:hover {
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+.BannerRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Banner_image > img {
+  width: 350px;
+  margin-right: 100px;
+}
+
+/* Page 2 Nav */
+
+.Page_2_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 250px;
+  margin-top: 50px;
+}
+
+.Page_2_nav > a > button {
+  border: none;
+  background-color: #eaeaea;
+  color: grey;
+  border-radius: 7px;
+  font-weight: 500;
+  height: 40px;
+  font-size: 17px;
+  padding: 5px 30px;
+  cursor: pointer;
+}
+
+/* Cards */
+.Cards_Container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 250px;
+  grid-gap: 22px;
+  margin-top: 15px;
+}
+
+.Cards_Container > div:hover {
+  transform: translateY(-5px);
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.Cards_Container > div > img {
+  width: 380px;
+  border-radius: 7px;
+}
+
+.cards_caption {
+  font-size: 13px;
+  color: grey;
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.para {
+  font-weight: 100;
+  font-size: 13px;
+  color: grey;
+  padding-right: 40px;
+  margin-top: 10px;
+}
+
+/* SubScribe */
+.SubScribe_Page {
+  background-color: #1d1d1d;
+  background-image: radial-gradient(
+      circle farthest-corner at 0% 50%,
+      rgba(255, 1, 1, 0.15),
+      transparent 47%
+    ),
+    radial-gradient(
+      circle farthest-corner at 40% 130%,
+      rgba(122, 167, 255, 0.41),
+      transparent 58%
+    );
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.SubScribe_Page > h2 {
+  font-size: 35px;
+  margin: 0 auto;
+}
+
+.SubScribe_Page > p {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.76);
+  margin-bottom: 30px;
+}
+
+.content > input,
+.content > button {
+  border: none !important;
+  background-color: white;
+  color: black;
+  border: 1px solid #cbd5dfa8;
+  border-radius: 5px;
+  margin-left: 5px;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  cursor: text;
+  font-size: 15px;
+}
+
+.content > input:focus {
+  outline: none;
+}
+
+.content > input::placeholder {
+  color: rgb(151, 151, 151);
+}
+
+.content > button {
+  width: 150px;
+  font-weight: bold;
+  color: white;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.content > button:hover {
+  background-color: rgba(81, 81, 81, 0.562);
+}
+
+/* Footer */
+
+.FooterContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 250px;
+}
+
+.footerImage > img {
+  width: 200px;
+}
+
+.footerPara {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.footerPara > a,
+.footerCopyright > p {
+  color: grey;
+  font-size: 15px;
+}
+
+.footerPara > a > span {
+  color: rgb(174, 174, 174);
+}
+
+.footerCopyright > p {
+  margin-top: 20px;
+}
+
+.FooterRight {
+  display: flex;
+  list-style: none;
+  padding-right: 100px;
+}
+
+.FooterRight > div {
+  margin: 0 30px;
+}
+
+.Fheading {
+  color: grey;
+  font-size: 14px;
+  display: grid;
+  grid-gap: 10px;
+}
+
+.Fheading > p {
+  margin-top: 0;
+}
+
+.Fheading > li > a {
+  color: grey;
+}
+
+.Fheading > li > a:hover {
+  color: black;
+}
+
+/* -------------------------------- */
+/* Resources.html FILE CSS */
+
+.ResourceContainer {
+  background-color: #f5f6f7;
+  background-image: radial-gradient(
+      circle farthest-corner at 0% 50%,
+      rgba(255, 1, 1, 0.13),
+      transparent 41%
+    ),
+    radial-gradient(
+      circle farthest-corner at 30% 150%,
+      rgba(122, 167, 255, 0.24),
+      transparent 54%
+    );
+  padding: 100px 250px 40px 250px;
+  margin-bottom: 80px;
+}
+
+.ResourceContainer > span {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+/* Login Page */
+.Loginpage {
+    background-color: #1d1d1d;
+    background-image: radial-gradient(circle farthest-corner at 100% 100%, rgba(122, 167, 255, 0.32), transparent 44%), radial-gradient(circle farthest-corner at 0% 100%, rgba(255, 1, 1, 0.15), transparent 32%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Loginpage > img {
+    width: 200px;
+    filter: invert(100%);
+}
+
+.Loginpage > .form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.form>span:nth-child(1) {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.form>span:nth-child(2) {
+    color: rgb(86, 86, 86);
+    font-size: 13px;
+}
+
+.Logininput {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.Logininput > input, .Logininput > button{
+  border: none !important;
+  margin: 10px 20px;
+  height: 40px;
+  cursor: text;
+  font-size: 15px;
+  width: 250px;
+  border: 1px solid grey;
+  padding-left: 10px;
+  border-radius: 6px;
+  background-color: rgb(231, 231, 231);
+}
+
+.Logininput > button {
+    width: auto;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.Logininput > button:hover {
+    background-color: rgb(86, 86, 86);
+    cursor: pointer;
+}
+
+.Logininput > input:focus {
+    outline: none;
+}
+
+.acc {
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.acc > a {
+    margin-left: 5px;
+}
+
+.ForgotPass > a{
+    font-size: 14px;
+    color: rgb(174, 174, 174);
+}
+
+
+
+/* Sign Up Page CSS */
+#check {
+    width: 15px;
+}
+
+#labelCheck {
+    font-size: 13px;
+    color: grey;
+    cursor: pointer;
+}
