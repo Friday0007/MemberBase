@@ -443,6 +443,7 @@ body {
 
 .acc > a {
     margin-left: 5px;
+    color: rgb(78, 78, 78);
 }
 
 .ForgotPass > a{
@@ -573,5 +574,12 @@ input, textarea{
 
 .Contact_form > .Cbutton > button:hover {
   background-color: rgb(37, 37, 37);
+}
+
+
+
+/* resetPassword.html CSS */
+#resetPass {
+  padding: 30px 20px;
 }
 
