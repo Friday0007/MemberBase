@@ -1,0 +1,110 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Navbar */
+
+.navBar > .navRight , .navLeft > .searchBar{
+    display: none;
+}
+
+.navBar {
+    padding: 20px 20px;
+}
+
+/* Banner */
+
+.Banner_Container {
+    flex-direction: column-reverse;
+    padding: 20px 20px;
+}
+
+.BannerRight {
+    padding: 20px 0;
+    justify-content: flex-start;
+}
+
+.Banner_image > img {
+    width: 130px;
+    margin: 0;
+}
+
+.BannerLeft > .heading >p {
+    font-size: 35px;
+}
+
+.BannerButton > button {
+    width: 100%;
+}
+
+
+/* Page 2 Nav */
+
+.Page_2_nav > a {
+    display: none;
+}
+
+.Page_2_nav {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.Cards_Container {
+    padding: 0 20px;
+    margin-top: 0;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.Cards_Container > div > img {
+    width: 320px;
+}
+
+
+/* SubScribe Page CSS */
+
+.SubScribe_Page > h2 {
+    font-size: 30px;
+}
+
+.SubScribe_Page > p {
+    font-size: 15px;
+    margin: 20px 30px;
+}
+
+.content > input,
+.content > button {
+    width: 100%;
+    margin: 5px 0;
+    padding-left: 5px;
+}
+
+.content > input {
+    width: 95%;
+}
+
+
+
+/* Footer */
+
+.FooterContainer {
+    flex-direction: column;
+    padding: 70px 20px;
+}
+
+.footerPara > a, .footerCopyright > p {
+    font-size: 13px;
+}
+
+.FooterRight{
+    margin-top: 20px;
+    padding-right: 0;
+    justify-content: space-between;
+}
+
+.FooterRight > div {
+    margin: 0;
+}

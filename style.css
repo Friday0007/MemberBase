@@ -328,6 +328,7 @@ body {
 
 .Fheading > p {
   margin-top: 0;
+  font-weight: bold;
 }
 
 .Fheading > li > a {
@@ -582,4 +583,3 @@ input, textarea{
 #resetPass {
   padding: 30px 20px;
 }
-
