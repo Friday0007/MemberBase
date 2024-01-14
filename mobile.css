@@ -108,3 +108,42 @@ body {
 .FooterRight > div {
     margin: 0;
 }
+
+
+/* Contact.html CSS */
+.ContactPage {
+    padding: 40px 0;
+}
+
+.ContactPage > span:nth-child(1) {
+    font-size: 15px;
+}
+
+.ContactPage > span:nth-child(2) {
+    text-align: center;
+    font-size: 35px;
+}
+
+.ContactPage > span:nth-child(3) {
+    font-size: 13px;
+    padding: 0 20px;
+    font-weight: 300;
+}
+
+
+
+.Contact_form > .TopForm {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+/* Resources.html */
+.ResourceContainer {
+    padding: 40px l̥0px 40px 20px;
+    margin-bottom: 20px;
+}
+
+.ResourceContainer > span {
+    font-size: 30px;
+}
