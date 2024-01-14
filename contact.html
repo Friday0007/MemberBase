@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memberbase - Webflow Membership</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navBar">
+      <div class="navLeft">
+        <img src="Logos/Logo.svg" alt="" />
+        <div class="searchBar">
+          <img src="Logos/Magnify_glass.svg" alt="Magnify Glass Image" />
+          <input type="text" placeholder="Search resources" />
+        </div>
+      </div>
+      <div class="navRight">
+        <a href="resources.html">All Resources</a>
+        <a href="loginPage.html">Log In</a>
+        <a href="SignUp.html">
+          <button class="navButton">Free Sign Up</button>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Contact Page -->
+    <div class="ContactPage">
+        <span>CONTACT</span>
+        <span class="heading">How can we help?</span>
+        <span>Reach out to inquire about an ebook, submit an ebook, or with<br>any other inquiry you might have.</span>
+
+        <div class="Contact_form">
+            <div class="TopForm">
+                <div class="left">
+                    <label for="Cname">First name*</label>
+                    <input type="text" id="Cname" placeholder="Your first name" required>
+                </div>
+                <div class="right">
+                    <label for="Clname">Last name*</label>
+                    <input type="text" id="Clname" placeholder="Your last name" required>
+                </div>
+            </div>
+            <div class="MidForm">
+                <label for="Cemail">Email*</label>
+                <input type="email" placeholder="example@email.com" id="Cemail" required>
+            </div>
+            <div class="BotForm">
+                <label for="Cmsg">Your Message*</label>
+                <textarea id="Cmsg" cols="30" rows="7" placeholder="Enter message here"></textarea>
+            </div>
+
+            <div class="Cbutton">
+                <button>Send Message</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="FooterContainer">
+      <div class="FooterLeft">
+        <div class="footerImage">
+          <img src="Logos/Logo.svg" alt="" />
+        </div>
+        <div class="footerPara">
+          <a href="">Built by <span>Nikolai Bain.</span></a>
+          <a href="">Powered by <span>Webflow.</span></a>
+        </div>
+        <div class="footerCopyright">
+          <p>&copy; 2022 Memberbase. All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="FooterRight">
+        <div>
+          <div class="Fheading">
+            <p>WEBSITE</p>
+            <li><a href="#">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="loginPage.html">Ebook (CMS)</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </div>
+        </div>
+        <div>
+          <div class="Fheading">
+            <p>MEMBERSHIP</p>
+            <li><a href="loginPage.html">Sign In</a></li>
+            <li><a href="SignUp.html">Sign Up</a></li>
+            <li><a href="">User Account</a></li>
+            <li><a href="">Reset Password</a></li>
+          </div>
+        </div>
+        <div>
+          <div class="Fheading">
+            <p>ADMIN</p>
+            <li><a href="">Style Guide</a></li>
+            <li><a href="">Licenses</a></li>
+            <li><a href="">Instructions</a></li>
+            <li><a href="">Password</a></li>
+            <li><a href="">404</a></li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -462,3 +462,116 @@ body {
     color: grey;
     cursor: pointer;
 }
+
+
+/* Contact.html CSS */
+.ContactPage {
+  background-color: #1d1d1d;
+    background-image: radial-gradient(circle farthest-corner at 0% 50%, rgba(255, 1, 1, 0.15), transparent 47%), radial-gradient(circle farthest-corner at 40% 130%, rgba(122, 167, 255, 0.41), transparent 58%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.ContactPage > span:nth-child(1) {
+  color: rgb(172, 172, 172);
+  font-weight: bold;
+}
+
+.ContactPage > span:nth-child(2) {
+  margin: 13px 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.ContactPage > span:nth-child(3) {
+  font-weight: bold;
+  color: rgb(203, 203, 203);
+  text-align: center;
+  font-size: 18px;
+}
+
+.Contact_form {
+  margin: 40px 0;
+  background-color: white;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+.Contact_form > .TopForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.Contact_form > .TopForm > .left,
+.Contact_form > .TopForm > .right {
+  display: grid;
+  color: black;
+}
+
+.Contact_form > .MidForm {
+  display: grid;
+  color: black;
+}
+
+.Contact_form > .BotForm {
+  color: black;
+  display: grid;
+}
+
+.TopForm > .left > label, .TopForm > .right > label , .MidForm > label, .BotForm > label{
+  color: rgb(85, 85, 85);
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.TopForm > .left > input, .TopForm > .right > input , .MidForm > input {
+  font-size: 15px;
+  color: black;
+  height: 35px;
+  padding: 5px 20px;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 5px;
+  background-color: rgb(244, 244, 244);
+  margin-bottom: 20px;
+}
+
+.BotForm {
+  margin-bottom: 20px;
+}
+
+.Contact_form > .Cbutton > button{
+  font-size: 17px;
+  border: none;
+  color: white;
+  background-color: black;
+  height: 45px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0 30px;
+}
+
+.Contact_form > .BotForm > #Cmsg{
+  font-size: 15px;
+  color: black;
+  padding: 15px 20px;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 5px;
+  background-color: rgb(244, 244, 244);
+  min-height: 100px;
+  min-width: 450px;
+}
+
+input, textarea{
+  outline: none;
+}
+
+.Contact_form > .Cbutton > button:hover {
+  background-color: rgb(37, 37, 37);
+}
+
