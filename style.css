@@ -12,8 +12,15 @@ body {
 
 /* NavBar Section */
 
+.navFixed {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  z-index: 1;
+}
+
 .navBar {
-  position: sticky;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -98,7 +105,7 @@ body {
     );
   display: flex;
   justify-content: space-between;
-  padding: 50px 250px;
+  padding: 100px 250px;
 }
 
 .BannerLeft {
